@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const sidebar = () => {
   return (
     <div className="bg-white h-full w-1/6 rounded-3xl relative">
@@ -6,49 +8,49 @@ const sidebar = () => {
           <img src="/logo.png" alt="logo" className="w-20 pt-14 pb-6" />
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/"
             className="flex flex-row gap-6 text-xl items-center pl-6 rounded-xl py-3 hover:bg-purple hover:text-white"
           >
             <i className="fa-solid fa-border-all" />
             Dashboard
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/"
             className="flex flex-row gap-6 text-xl items-center pl-6 bg-purple rounded-xl py-3 text-white"
           >
             <i className="fa-regular fa-folder" />
             Videos
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/"
             className="flex flex-row gap-6 text-xl items-center pl-6 rounded-xl py-3  hover:bg-purple hover:text-white"
           >
             <i className="fa-regular fa-circle-play" />
             Player
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/"
             className="flex flex-row gap-6 text-xl items-center pl-6 rounded-xl py-3  hover:bg-purple hover:text-white"
           >
             <i className="fa-solid fa-chart-line" />
             Analytics
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/"
             className="flex flex-row gap-6 text-xl items-center pl-6 rounded-xl py-3  hover:bg-purple hover:text-white"
           >
             <i className="bx bx-cog" />
             Configuraciones
-          </a>
+          </Link>
         </li>
       </ul>
       <div className="bg-gray m-4 rounded-2xl px-4 py-6 overflow-hidden relative">
